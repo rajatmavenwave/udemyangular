@@ -1,0 +1,3 @@
+<button class="btn btn-primary" (click)="onButtonClick()" >Display Detail</button>
+<p *ngIf="abc" >Password is tuna</p>
+<p *ngFor="let i of log" [ngStyle]="{backgroundColor : i>=5 ? 'lightblue' : 'white'} " >{{ i }} </p>
