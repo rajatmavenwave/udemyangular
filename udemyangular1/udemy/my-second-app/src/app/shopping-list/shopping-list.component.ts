@@ -15,5 +15,7 @@ export class ShoppingListComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  onIngredientAdded(ingredeint:Ingredient){
+    this.ingredients.push(ingredeint);
+  }
 }
